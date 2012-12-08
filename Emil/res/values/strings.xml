@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Emil</string>
+    <string name="tele_nr">Telefon Nr:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="onoff">ON</string>
+    <string name="tele_mex">Mobil External Phone App</string>
+
+</resources>

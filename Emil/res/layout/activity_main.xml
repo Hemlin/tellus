@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="120dp"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:text="@string/tele_nr"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+    
+    <Button
+    android:layout_marginTop="110dp" 
+    android:textSize="20dp"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:text="On"
+    />
+    
+    
+    
+    
+    
+</RelativeLayout>
